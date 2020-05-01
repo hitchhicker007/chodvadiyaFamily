@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="5dp"
+        app:cardBackgroundColor="@color/colorPrimaryLight">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/edu_layout_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name : Member's name"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/edu_layout_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mobile number : 00000 00000"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:id="@+id/edu_layout_xender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="xender : male"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:id="@+id/edu_layout_profession"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="profession : hjgha"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:id="@+id/edu_layout_profession_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="profession field : abc"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:id="@+id/edu_layout_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="address : hjgha"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:id="@+id/edu_layout_village"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="village : abc"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:id="@+id/edu_layout_taluka"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="taluko : xyz"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:id="@+id/edu_layout_district"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="district : ahmedabad"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

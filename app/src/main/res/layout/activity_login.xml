@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginHorizontal="15dp"
+            android:id="@+id/linear_register"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/parivar_text"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:textSize="45sp"
+                android:text="નોંધણી"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:layout_marginTop="20dp"
+                android:id="@+id/etMainMember"
+                android:hint="કુટુંબ ના વડા નું પૂરું નામ"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:id="@+id/spinner_xender"
+                />
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/etdob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorPrimary"
+                    android:text="જન્મ ની તારીખ પસંદ કરો"
+                    android:textSize="15sp"
+                    android:padding="15dp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="20dp"
+                    />
+
+                <Button
+                    android:id="@+id/btndobpicker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="અહીં દબાવો"
+                    android:textSize="15sp"
+                    android:padding="15dp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    android:layout_marginStart="20dp"
+                    android:background="@drawable/buttons"
+                    />
+
+            </LinearLayout>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:id="@+id/spinner_education"
+                />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:id="@+id/spinner_business"
+                />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:id="@+id/spinner_business_field"
+                />
+
+            <EditText
+                android:id="@+id/business_location"
+                android:layout_marginTop="20dp"
+                android:hint="વ્યયસાય સ્થળ"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:id="@+id/spinner_marriage_status"
+                />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:id="@+id/spinner_blood_group"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="**મોસાળ**"
+                android:textSize="15sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                />
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/et_gam_mosad"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:hint="ગામ"
+                    android:padding="15dp"
+                    android:textSize="15sp"
+                    android:layout_marginStart="10dp"/>
+
+                <EditText
+                    android:id="@+id/et_surname_mosad"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:hint="અટક"
+                    android:padding="15dp"
+                    android:textSize="15sp"
+                    android:layout_marginStart="20dp"/>
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/et_mobile_number"
+                android:layout_marginTop="20dp"
+                android:hint="મોબાઈલ નંબર"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:textSize="15sp"
+                android:inputType="number"
+                android:textStyle="bold"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="**કુટુંબ ના સભ્યો ની સંખ્યા**"
+                android:textSize="15sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:id="@+id/spinner_family_members"
+                />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:id="@+id/spinner_village"
+                />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:id="@+id/spinner_taluko"
+                />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:id="@+id/spinner_jillo"
+                />
+
+            <EditText
+                android:id="@+id/etAnnualIncome"
+                android:layout_marginTop="20dp"
+                android:hint="કુટુંબ ની કુલ વાર્ષિક આવક"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:inputType="number"/>
+
+            <EditText
+                android:id="@+id/etHomeAddress"
+                android:layout_marginTop="20dp"
+                android:hint="ઘર નું સરનામું"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+
+
+            <EditText
+                android:layout_marginTop="20dp"
+                android:hint="તમારું ઈ-મેલ આઈડી નાખો"
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:inputType="textEmailAddress"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/etPassword"
+                    android:hint="તમારો પાસવર્ડ નાખો"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:paddingEnd="50dp"
+                    android:padding="20dp"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+
+                <CheckBox
+                    android:id="@+id/show_hide_pass_register"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="પાસવર્ડ બતાવો"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="15sp"
+                    android:layout_marginStart="10dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_layout_choose_pic"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginStart="5dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="તમારો ફોટો ઉમેરો"
+                        android:layout_marginStart="8dp"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/colorPrimaryDark"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="**ફોટો ઉમેરવા અહીં દબાવો**"
+                        android:layout_marginTop="3dp"
+                        android:textSize="10sp"
+                        android:gravity="center"
+                        />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/profile_picture"
+                    android:layout_marginStart="15dp"
+                    android:layout_width="170dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/imgicon"
+                    />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnRegister"
+                android:text="નોંધણી"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttons"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:textSize="15sp"
+                android:layout_marginBottom="20dp"/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

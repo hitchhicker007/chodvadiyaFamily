@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="5dp"
+        app:cardBackgroundColor="@color/colorPrimaryLight">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/business_card_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name : Member's name"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/business_card_xender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="xender"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:id="@+id/business_card_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="mobile"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:id="@+id/business_card_education"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="education"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:id="@+id/business_card_profession"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="profession"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:id="@+id/business_card_profession_loc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="profession loc"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                />
+
+
+            <TextView
+                android:id="@+id/business_card_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="address"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:id="@+id/business_card_village"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="village"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:id="@+id/business_card_taluka"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="taluka"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:id="@+id/business_card_district"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="district"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

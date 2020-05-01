@@ -1,0 +1,179 @@
+<resources>
+    <string name="app_name">ચોડવડીયા પરિવાર</string>
+
+    <string-array name="business">
+        <item>તમારો વ્યયસાય પસંદ કરો</item>
+        <item>ધંધો</item>
+        <item>નૌકરી</item>
+        <item>અન્ય</item>
+    </string-array>
+
+    <string-array name="marriage_status">
+        <item>તમારા લગ્ન ની સ્થિતિ પસંદ કરો</item>
+        <item>પરિણીત</item>
+        <item>અપરિણીત</item>
+    </string-array>
+
+    <string-array name="blood_grp">
+        <item>તમારું રક્ત જૂથ પસંદ કરો</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>ખબર નથી</item>
+    </string-array>
+
+    <string-array name="education">
+        <item>તમારું શિક્ષણ પસંદ કરો</item>
+        <item>નથી ભણેલા</item>
+        <item>1 std</item>
+        <item>2 std</item>
+        <item>3 std</item>
+        <item>4 std</item>
+        <item>5 std</item>
+        <item>6 std</item>
+        <item>7 std</item>
+        <item>9 std</item>
+        <item>10 std</item>
+        <item>11 std</item>
+        <item>12 std</item>
+        <item>B.Com</item>
+        <item>M.Com</item>
+        <item>B.ed</item>
+        <item>M.ed</item>
+        <item>B.sc</item>
+        <item>M.sc</item>
+        <item>BBA</item>
+        <item>MBA</item>
+        <item>BCA</item>
+        <item>B.Sc(IT)</item>
+        <item>MCA</item>
+        <item>DIPLOMA</item>
+        <item>BE</item>
+        <item>ME</item>
+        <item>MS</item>
+        <item>B.Tech</item>
+        <item>BA</item>
+        <item>MA</item>
+        <item>B.ed</item>
+        <item>M.ed</item>
+        <item>PHD</item>
+        <item>B.Pharm</item>
+        <item>M.Pharm</item>
+        <item>BHMS</item>
+        <item>MBBS</item>
+        <item>MD</item>
+        <item>M.Phil</item>
+        <item>M.Sc(IT)</item>
+        <item>BAMS</item>
+        <item>DBS</item>
+        <item>Other</item>
+        <item>L.L.B</item>
+        <item>C.A</item>
+    </string-array>
+
+    <string-array name="business_field">
+        <item>તમારું વ્યયસાય ક્ષેત્ર પસંદ કરો</item>
+        <item>હીરા ઉદ્યોગ</item>
+        <item>જ્વેલરી</item>
+        <item>ટેક્ષટાઇલ અને ગાર્મેન્ટ્સ</item>
+        <item>રીયલ એસ્ટેટ અને બાંધકામ</item>
+        <item>ખેતી અને પશુપાલન</item>
+        <item>બેન્કિંગ</item>
+        <item>ફૂડ અને ફૂડ પ્રોસેસીંગ</item>
+        <item>શિક્ષણ અને તાલીમ</item>
+        <item>આરોગ્ય અને તબીબી સેવા</item>
+        <item>નાણાકીય સેવા</item>
+        <item>કાયદા-કાનૂની સેવા</item>
+        <item>ઇન્ફોરમેશન ટેક્નોલોજી</item>
+        <item>કેમિકલ</item>
+        <item>ઑટોમોબાઇલ</item>
+        <item>ટેલિકોમ્યુનિકેશન</item>
+        <item>રિટેલ</item>
+        <item>ઇલેક્ટ્રિક અને ઇલેક્ટ્રોનિક્સ</item>
+        <item>પ્રિન્ટિંગ અને પેકેજિન્ગ</item>
+        <item>રાજકારણ</item>
+        <item>અન્ય</item>
+        <item>સરકારી નૌકરી</item>
+        <item>ફેશન ડિઝાઇનિંગ</item>
+        <item>બ્યુટીપાર્લર</item>
+        <item>ઘરકામ</item>
+        <item>કમ્પ્યુટર એન્જનિરીંગ</item>
+        <item>નિવૃત</item>
+        <item>ખબર નથી</item>
+        <item>ભણવાનું ચાલુ છે</item>
+    </string-array>
+
+    <string-array name="family_member">
+        <item>તમારા સિવાય પરિવાર માં કેટલા સભ્યો છે તે પસંદ કરો</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="villages">
+        <item>તમારું મૂળ વતન પસંદ કરો</item>
+        <item>ઈશ્વરીયા</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+    </string-array>
+
+    <string-array name="relation">
+        <item>કુટુંબ ના વડા સાથે નો સંબંધ પસંદ કરો</item>
+        <item>પુત્ર/પુત્રી</item>
+        <item>પત્ની</item>
+        <item>પતિ</item>
+        <item>અન્ય</item>
+        <item>માતા/પિતા</item>
+        <item>દાદા/દાદી</item>
+    </string-array>
+
+    <string-array name="taluka">
+        <item>તમારો તાલુકો પસંદ કરો</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+    </string-array>
+
+    <string-array name="jilla">
+        <item>તમારો જિલ્લો પસંદ કરો</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+    </string-array>
+
+    <string-array name="xender">
+        <item>તમારી જાતિ પસંદ કરો</item>
+        <item>પુરુષ</item>
+        <item>સ્ત્રી</item>
+    </string-array>
+
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Advertisement</string>
+    <string name="menu_slideshow">Developed By</string>
+
+    <string name="home_second">Home Second</string>
+
+</resources>

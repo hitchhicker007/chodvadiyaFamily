@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <TextView
+        android:id="@+id/text_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:id="@+id/image_slider_vp"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:paddingStart="40dp"
+        android:paddingTop="55dp"
+        android:text='"સુરક્ષિત પરિવાર, \n\t\t\t\t\t\t\tખુશીઓ અપાર"'/>
+
+    <RelativeLayout
+        android:layout_below="@+id/image_slider_vp"
+        android:id="@+id/row_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_gallary"
+            app:cardCornerRadius="10dp"
+            android:layout_width="100dp"
+            app:cardBackgroundColor="@color/colorPrimaryLight"
+            android:layout_height="150dp"
+            android:layout_alignParentStart="true">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/imgicon"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginHorizontal="15dp"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ગેલેરી"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_marginStart="15dp"
+                    />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_contact"
+            app:cardCornerRadius="10dp"
+            android:textAlignment="viewEnd"
+            android:layout_centerHorizontal="true"
+            android:layout_width="100dp"
+            app:cardBackgroundColor="@color/colorPrimaryLight"
+            android:layout_height="150dp">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/contactvector"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginHorizontal="15dp"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="કોન્ટેક્ટ"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_marginStart="8dp"
+                    />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_blood_group"
+            app:cardCornerRadius="10dp"
+            android:textAlignment="viewEnd"
+            android:layout_alignParentEnd="true"
+            android:layout_width="100dp"
+            android:layout_marginStart="30dp"
+            app:cardBackgroundColor="@color/colorPrimaryLight"
+            android:layout_height="150dp">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/bloodgroupvector"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginHorizontal="15dp"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="બ્લડ \ગ્રુપ"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_marginStart="7dp"
+                    />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/row_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/row_1">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_education"
+            app:cardCornerRadius="10dp"
+            android:layout_width="100dp"
+            app:cardBackgroundColor="@color/colorPrimaryLight"
+            android:layout_height="150dp"
+            android:layout_alignParentStart="true">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/studyvector"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginHorizontal="15dp"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="અભ્યાસ"
+                    android:textStyle="bold"
+                    android:textSize="27sp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_marginStart="6dp"
+                    />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="10dp"
+            android:id="@+id/card_profession"
+            android:textAlignment="viewEnd"
+            android:layout_centerHorizontal="true"
+            android:layout_width="100dp"
+            app:cardBackgroundColor="@color/colorPrimaryLight"
+            android:layout_height="150dp">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/briefcasevector"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginHorizontal="15dp"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ધંધો"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_marginStart="25dp"
+                    />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="10dp"
+            android:id="@+id/card_info"
+            android:textAlignment="viewEnd"
+            android:layout_alignParentEnd="true"
+            android:layout_width="100dp"
+            android:layout_marginStart="30dp"
+            app:cardBackgroundColor="@color/colorPrimaryLight"
+            android:layout_height="150dp">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/infovector"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginHorizontal="15dp"/>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="માહિતી"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_marginStart="8dp"
+                    />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+</RelativeLayout>

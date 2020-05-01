@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResetPassActivity">
+
+    <TextView
+        android:id="@+id/title_fp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAlignment="center"
+        android:text="પાસવર્ડ બદલો"/>
+
+    <EditText
+        android:id="@+id/fp_current_pass"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/title_fp"
+        android:hint="તમારો કરંટ પાસવર્ડ લખો"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:padding="20dp"
+        android:textSize="15sp"
+        android:layout_marginHorizontal="15dp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/fp_new_pass"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/fp_current_pass"
+        android:hint="તમારો નવો પાસવર્ડ લખો"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:padding="20dp"
+        android:textSize="15sp"
+        android:layout_marginHorizontal="15dp"
+        android:textStyle="bold"
+        />
+
+    <CheckBox
+        android:layout_below="@+id/fp_new_pass"
+        android:id="@+id/show_hide_pass_fp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="પાસવર્ડ બતાવો"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"/>
+
+    <Button
+        android:layout_below="@id/show_hide_pass_fp"
+        android:id="@+id/btn_reset_pass"
+        android:text="પાસવર્ડ બદલો"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"/>
+
+</RelativeLayout>

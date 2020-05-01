@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/contact_card_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp"
+        app:cardBackgroundColor="@color/colorPrimaryLight">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/members_profile_pic"
+                android:padding="5dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@color/colorLightGray"
+                />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp">
+
+                <TextView
+                    android:id="@+id/members_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="nameishere surnameishere"
+                    android:textSize="18sp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:id="@+id/members_mobile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Mobile : 00000 00000"/>
+
+                <TextView
+                    android:id="@+id/members_village"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="address : abc"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/members_goto_call"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginHorizontal="5dp"
+            android:layout_gravity="bottom"
+            android:src="@drawable/ic_phone_black_24dp"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="@android:color/holo_green_dark"/>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

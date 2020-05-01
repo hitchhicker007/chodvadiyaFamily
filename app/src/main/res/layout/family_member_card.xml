@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/family_member_card_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="5dp"
+        app:cardBackgroundColor="@color/colorPrimaryLight">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/member_layout_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name : Member's name"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/member_layout_relation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="relation : dad"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:id="@+id/member_layout_xender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="xender : male"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:id="@+id/member_layout_blood_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="blood-gorp : A+"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:id="@+id/member_layout_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="status : married"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                />
+            <TextView
+                android:id="@+id/member_layout_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="mobile : 00000 000000"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:id="@+id/member_layout_dob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="dob : 5/15/2020"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:id="@+id/member_layout_education"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="education : BE"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:id="@+id/member_layout_profession"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="profession : avs"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:id="@+id/member_layout_profession_field"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="profession field : ce"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:id="@+id/member_layout_village_mosal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="village mosal : fdas"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:id="@+id/member_layout_surname_mosal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="surname mosal : kgkfnad"
+                android:textColor="@android:color/black"
+                android:textSize="15dp"
+                />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
