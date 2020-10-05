@@ -27,4 +27,9 @@ This is full source code of one of my client's application. this application is 
 [![GitHub followers](https://img.shields.io/github/followers/hitchhicker007.svg?label=Follow%20@hitchhicker007&style=social)](https://github.com/hitchhicker007/) [![Twitter Follow](https://img.shields.io/twitter/follow/hitchhickerrr?style=social)](https://twitter.com/hitchhickerrr) 
 Personal Portfolio : [hitchhicker.tech](hitchhicker.tech) 
 
+## LEGAL DESCLAIMER
+Developer assume no liability and are not responsible for any misuse or damage caused by this program.
+
+## DON'T COPY THIS CODE WITHOUT GIVE ME THE CREDITS!!
+
 [![built with love](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/hitchhicker007/)
