@@ -4,6 +4,10 @@
 
 This is full source code of one of my client's application. this application is for family's social activity.
 
+<a href="https://play.google.com/store/apps/details?id=com.hfu.chodvadiyaparivar"><img
+  alt="Get it on Google Play" height="80"
+  src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" /></a> 
+
 ## Tech Stack
 
 - Java, Android Studio
