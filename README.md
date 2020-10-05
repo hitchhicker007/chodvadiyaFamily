@@ -16,6 +16,12 @@ This is full source code of one of my client's application. this application is 
 
 <img src="https://lh3.googleusercontent.com/XhwxVvUl2s3qy0JA4ZBOfzLCE2HdywE23t2jyuI7dm-_kzn5vLPNA47cInUCpfz6Hvbr=w720-h310-rw"><img src="https://lh3.googleusercontent.com/oCkx1uCAqYpmF5K5_UVOKH_oSornInkJG-UWkQLQOfgLoo9ZWU491iFTr8WRvJqIfgg=w720-h310-rw"><img src="https://lh3.googleusercontent.com/kRCD2WBWWUXVmMcWbftJy90Dv3HLdZ88Jeajt3t7-RDz9-1NGAF4fIMsGuDP2C19tPUq=w720-h310-rw"><img src="https://lh3.googleusercontent.com/QOzct_rhL3zR_HyyYV9Lo3TdAfPKzUMDYlTspSP25DyLhb8rwW39ROjMkBI11RKZU8Q=w720-h310-rw">
 
+
+## LEGAL DESCLAIMER
+Developer assume no liability and are not responsible for any misuse or damage caused by this program.
+
+## DON'T COPY THIS CODE WITHOUT GIVE ME THE CREDITS!!
+
 ## Project Admin
 
 [![Relative date](https://img.shields.io/date/1577392258?color=important&label=started&logo=github)](https://github.com/hitchhicker007/) [![Maintenance](https://img.shields.io/maintenance/yes/2020?color=green&logo=github)](https://github.com/hitchhicker007/)
@@ -27,9 +33,5 @@ This is full source code of one of my client's application. this application is 
 [![GitHub followers](https://img.shields.io/github/followers/hitchhicker007.svg?label=Follow%20@hitchhicker007&style=social)](https://github.com/hitchhicker007/) [![Twitter Follow](https://img.shields.io/twitter/follow/hitchhickerrr?style=social)](https://twitter.com/hitchhickerrr) 
 Personal Portfolio : [hitchhicker.tech](hitchhicker.tech) 
 
-## LEGAL DESCLAIMER
-Developer assume no liability and are not responsible for any misuse or damage caused by this program.
-
-## DON'T COPY THIS CODE WITHOUT GIVE ME THE CREDITS!!
 
 [![built with love](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/hitchhicker007/)
